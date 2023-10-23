@@ -29,7 +29,7 @@ public class hesapmakinesi {
             case 5:
                 System.out.println("Hatalı bir tuşlama yaptınız! Lütfen sadece 4 işlemden birini seçiniz.");
         }
-        System.out.println("Programımız bitmiştir ilginiz için teşekkür ederiz.");
+        System.out.println("Programınız bitmiştir ilginiz için teşekkür ederiz.");
 
 
     }
