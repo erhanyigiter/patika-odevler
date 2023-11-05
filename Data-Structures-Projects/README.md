@@ -11,6 +11,7 @@ Insertion Sort
 a) Yukarıdaki verilen dizinin Insertion Sort türüne göre aşamalarını yazınız.
 
 #### Answer a:<br>
+<pre>
  1: [22,27,16,2,18,6] // 22 zaten 27'den küçük olduğu için hiç bir sıralama yapılmadı<br>
  2: [22,16,27,2,18,6]   // 27 ile 16 yer değişti<br>
  3: [16,22,27,2,18,6]   // 22 ile 16 yer değişti<br>
@@ -22,7 +23,7 @@ a) Yukarıdaki verilen dizinin Insertion Sort türüne göre aşamalarını yaz�
  9: [2,16,18,22,6,27]   // 27 ile 6 yer değişti<br>
  10: [2,16,18,6,22,27]  // 22 ile 6 yer değişti<br>
  11: [2,16,6,18,22,27]  // 18 ile 6 yer değişti<br>
- 12: [2,6,16,18,22,27]  // 16 ile 6 yer değişti
+ 12: [2,6,16,18,22,27]  // 16 ile 6 yer değişti</pre>
 
 b) Big-O gösterimini yazınız.
 
@@ -30,13 +31,13 @@ b) Big-O gösterimini yazınız.
 O(n^2)
 
 c) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
-
+<pre>
 1. Average Case: Aranan sayının ortada olması<br>
 2. Worst Case: Aranan sayının sonda olması<br>
-3. Best Case: Aranan sayının dizinin en başında olması
+3. Best Case: Aranan sayının dizinin en başında olması</pre>
 
-#### Answer c:<br>
-Average Case
+#### Answer <pre>c:<br>
+Average Case</pre>
 
 Selection Sort
 
@@ -62,17 +63,17 @@ a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
 #### Answer a: 
 <pre>
- 1:               [16,21,11]                             [8,12,22]<br>
-                    /           \                         /           \
- 2:          [16,21]    -    [11]                  [8,12]    -    [22]
-                /        \             \               /      \            \
- 3:      [16]    -    [21]    -    [11]        [8]     -    [12]    -    [22]  
-                \       /              /             \         /            /
- 4:          [16,21]    -    [11]                  [8,12]    -    [22]
-                     \            /                        \           /
- 5:                [11,16,21]                            [8,12,22]
-                                  
- 6:                               [8,11,12,16,21,22]
+                   [16,21,11]                             [8,12,22]<br>
+                  /           \                         /           \
+               [16,21]    -    [11]                  [8,12]    -    [22]
+              /        \             \               /      \            \
+            [16]   -     [21]    -    [11]        [8]     -    [12]    -    [22]  
+              \       /              /             \         /            /
+                 [16,21]    -    [11]                  [8,12]    -    [22]
+                   \            /                        \           /
+                     [11,16,21]                            [8,12,22]
+                                
+                               [8,11,12,16,21,22]
 </pre>
 
 b) Big-O gösterimini yazınız.
