@@ -62,17 +62,17 @@ a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
 #### Answer a: 
 
-Step 1:               [16,21,11]                             [8,12,22]<br>
+ 1:               [16,21,11]                             [8,12,22]<br>
                     /           \                         /           \<br>
-Step 2:          [16,21]    -    [11]                  [8,12]    -    [22]<br>
+ 2:          [16,21]    -    [11]                  [8,12]    -    [22]<br>
                 /        \             \               /      \            \<br>
-Step 3:      [16]    -    [21]    -    [11]        [8]     -    [12]    -    [22]   <br>
+ 3:      [16]    -    [21]    -    [11]        [8]     -    [12]    -    [22]   <br>
                 \       /              /             \         /            /<br>
-Step 4:          [16,21]    -    [11]                  [8,12]    -    [22]<br>
+ 4:          [16,21]    -    [11]                  [8,12]    -    [22]<br>
                      \            /                        \           /<br>
-Step 5:                [11,16,21]                            [8,12,22]<br>
+ 5:                [11,16,21]                            [8,12,22]<br>
                                   
-Step 6:                               [8,11,12,16,21,22]
+ 6:                               [8,11,12,16,21,22]
 
 #b) Big-O gösterimini yazınız.
 
@@ -100,13 +100,13 @@ Root x = 6
    2     4    
 </pre>
 
-Step 1:     7 > 6 için root'un sağında 7 bulunur.<br>
-Step 2:     5 < 6 için root'un solunda 5 bulunur.<br>
-Step 3:     1 < 6 için 1 root'un soluna eklenir.<br>
-Step 4:     8 > 6 için 8 root'un sağına eklenir.<br>
-Step 5:     3 < 6 için 3 root'un soluna eklenir.<br>
-Step 6:     0 < 6 için 0 root'un soluna eklenir.<br>
-Step 7:     9 > 6 için 9 root'un sağına eklenir.<br>
-Step 8:     4 < 6 için 4 root'un soluna eklenir. <br>                    
-Step 9:     2 < 6 için 2 root'un soluna eklenir.        <br>                 
+ 1:     7 > 6 için root'un sağında 7 bulunur.<br>
+ 2:     5 < 6 için root'un solunda 5 bulunur.<br>
+ 3:     1 < 6 için 1 root'un soluna eklenir.<br>
+ 4:     8 > 6 için 8 root'un sağına eklenir.<br>
+ 5:     3 < 6 için 3 root'un soluna eklenir.<br>
+ 6:     0 < 6 için 0 root'un soluna eklenir.<br>
+ 7:     9 > 6 için 9 root'un sağına eklenir.<br>
+ 8:     4 < 6 için 4 root'un soluna eklenir. <br>                    
+ 9:     2 < 6 için 2 root'un soluna eklenir.                   
   
