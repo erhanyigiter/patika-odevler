@@ -11,7 +11,7 @@ Insertion Sort
 a) Yukarıdaki verilen dizinin Insertion Sort türüne göre aşamalarını yazınız.
 
 Answer a:<br>
-' Step 1: [22,27,16,2,18,6]   // 22 zaten 27'den küçük olduğu için hiç bir sıralama yapılmadı<br>
+' Step 1: [22,27,16,2,18,6]   // 22 zaten 27'den küçük olduğu için hiç bir sıralama yapılmadı '<br>
 Step 2: [22,16,27,2,18,6]   // 27 ile 16 yer değişti<br>
 Step 3: [16,22,27,2,18,6]   // 22 ile 16 yer değişti<br>
 Step 4: [16,22,2,27,18,6]   // 27 ile 2 yer değişti<br>
