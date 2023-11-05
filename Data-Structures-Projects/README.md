@@ -6,7 +6,7 @@ Insertion Sort
 
 ### Question 1
 
-[22,27,16,2,18,6]
+<pre>[22,27,16,2,18,6]</pre>
 
 a) Yukarıdaki verilen dizinin Insertion Sort türüne göre aşamalarını yazınız.
 
@@ -43,7 +43,7 @@ Selection Sort
 
 ### Question 2
 
-[7,3,5,8,2,9,4,15,6] --> dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+<pre>[7,3,5,8,2,9,4,15,6] --> dizisinin Selection Sort'a göre ilk 4 adımını yazınız.</pre>
 
 #### Answer:<br>
  1: [2,3,5,8,7,9,4,15,6]<br>
@@ -57,7 +57,7 @@ Selection Sort
 ## Merge Sort
 
 ### Question 1
-   [16,21,11,8,12,22]
+  <pre> [16,21,11,8,12,22]</pre>
 
 a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
@@ -79,19 +79,19 @@ a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 b) Big-O gösterimini yazınız.
 
 Answer b:
-                                 O(nlogn)
+                  <pre>               O(nlogn)</pre>
 
 ## Binary Search Tree
 
-### Question 1 -->  [7,5,1,8,3,6,0,9,4,2]
+### Question 1 -->  <pre>[7,5,1,8,3,6,0,9,4,2]</pre>
                
   dizisinin Binary Search Tree aşamalarını yazınız. Örnek: root x'dir. Root'un sağından y bulunur. Solunda z bulunur vb.   
 
 #### Answer:
 
-Root x = 6
+<pre>Root x = 6
 
-<pre>
+
         6
       /   \ 
      5     7
@@ -102,7 +102,7 @@ Root x = 6
     /   \      
    2     4    
 </pre>
-
+<pre>
  1:     7 > 6 için root'un sağında 7 bulunur.<br>
  2:     5 < 6 için root'un solunda 5 bulunur.<br>
  3:     1 < 6 için 1 root'un soluna eklenir.<br>
@@ -112,4 +112,4 @@ Root x = 6
  7:     9 > 6 için 9 root'un sağına eklenir.<br>
  8:     4 < 6 için 4 root'un soluna eklenir. <br>                    
  9:     2 < 6 için 2 root'un soluna eklenir.                   
-  
+  </pre>
