@@ -37,8 +37,10 @@ c) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'ler
 2. Worst Case: Aranan sayının sonda olması<br>
 3. Best Case: Aranan sayının dizinin en başında olması</pre>
 
-#### Answer <pre>c:<br>
-Average Case</pre>
+#### Answer c:<br>
+<pre>
+Average Case
+</pre>
 
 Selection Sort
 
