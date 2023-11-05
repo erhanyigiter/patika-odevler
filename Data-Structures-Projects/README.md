@@ -75,7 +75,7 @@ a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
  6:                               [8,11,12,16,21,22]
  <pre>
 
-#b) Big-O gösterimini yazınız.
+b) Big-O gösterimini yazınız.
 
 Answer b:
                                  O(nlogn)
@@ -89,7 +89,7 @@ Answer b:
 #### Answer:
 
 Root x = 6
-<pre>
+//<pre>
         6
       /   \ 
      5     7
