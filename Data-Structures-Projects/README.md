@@ -60,7 +60,7 @@ Selection Sort
 
 a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
-####Answer a: 
+#### Answer a: 
 
 Step 1:               [16,21,11]                             [8,12,22]<br>
                     /           \                         /           \<br>
@@ -88,16 +88,18 @@ Answer b:
 #### Answer:
 
 Root x = 6
-.                             6<br>
-.                           /   \ <br>
-.                          5     7<br>
-.                        /         \<br>
-.                       1           8<br>
-.                     /   \           \<br>
-.                    0     3           9<br>
-.                        /   \      <br>
-.                       2     4    <br>
-.                                <br>
+<pre>
+        6
+      /   \ 
+     5     7
+    /         \
+   1           8
+ /   \           \
+0     3           9
+    /   \      
+   2     4    
+</pre>
+
 Step 1:     7 > 6 için root'un sağında 7 bulunur.<br>
 Step 2:     5 < 6 için root'un solunda 5 bulunur.<br>
 Step 3:     1 < 6 için 1 root'un soluna eklenir.<br>
