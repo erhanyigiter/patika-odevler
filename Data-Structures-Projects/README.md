@@ -89,17 +89,18 @@ Answer b:
 #### Answer:
 
 Root x = 6
-<pre>
-        6
-      /   \ 
-     5     7
-    /         \
-   1           8
- /   \           \
-0     3           9
-    /   \      
-   2     4    
-```</pre>
+
+
+|   6   |
+|  / \  |
+| 5   7 |
+|/ \   \|
+1   8   9
+ / \
+0   3
+   / \
+  2   4
+
 
  1:     7 > 6 için root'un sağında 7 bulunur.<br>
  2:     5 < 6 için root'un solunda 5 bulunur.<br>
