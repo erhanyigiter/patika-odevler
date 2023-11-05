@@ -73,7 +73,7 @@ a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
  5:                [11,16,21]                            [8,12,22]
                                   
  6:                               [8,11,12,16,21,22]
- <pre>
+</pre>
 
 b) Big-O gösterimini yazınız.
 
@@ -90,17 +90,17 @@ Answer b:
 
 Root x = 6
 
-
-|   6   |
-|  / \  |
-| 5   7 |
-|/ \   \|
-1   8   9
- / \
-0   3
-   / \
-  2   4
-
+<pre>
+        6
+      /   \ 
+     5     7
+    /         \
+   1           8
+ /   \           \
+0     3           9
+    /   \      
+   2     4    
+</pre>
 
  1:     7 > 6 için root'un sağında 7 bulunur.<br>
  2:     5 < 6 için root'un solunda 5 bulunur.<br>
