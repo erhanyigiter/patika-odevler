@@ -67,7 +67,7 @@ a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
 #### Answer a: 
 <pre>
-                   [16,21,11]                             [8,12,22]<br>
+                   [16,21,11]                             [8,12,22]
                   /           \                         /           \
                [16,21]    -    [11]                  [8,12]    -    [22]
               /        \             \               /      \            \
