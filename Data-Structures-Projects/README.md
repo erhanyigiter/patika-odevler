@@ -27,8 +27,9 @@ a) Yukarıdaki verilen dizinin Insertion Sort türüne göre aşamalarını yaz�
 
 b) Big-O gösterimini yazınız.
 
-#### Answer b:<br><pre>
-O(n^2)</pre>
+#### Answer b:<br>    
+<pre>
+O(n^2)     </pre>
 
 c) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
 <pre>
