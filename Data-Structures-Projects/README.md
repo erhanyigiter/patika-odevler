@@ -61,7 +61,7 @@ Selection Sort
 a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
 #### Answer a: 
-<pre>```
+<pre>
  1:               [16,21,11]                             [8,12,22]<br>
                     /           \                         /           \
  2:          [16,21]    -    [11]                  [8,12]    -    [22]
@@ -73,7 +73,7 @@ a) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
  5:                [11,16,21]                            [8,12,22]
                                   
  6:                               [8,11,12,16,21,22]
-``` <pre>
+ <pre>
 
 b) Big-O gösterimini yazınız.
 
@@ -89,7 +89,7 @@ Answer b:
 #### Answer:
 
 Root x = 6
-//<pre>```
+<pre>
         6
       /   \ 
      5     7
